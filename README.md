@@ -1,9 +1,8 @@
 # Deep Residual Fourier Transformation for Single Image Deblurring for CPU
-<!-- Xintian Mao, Yiming Liu, Wei Shen, Qingli Li and Yan Wang -->
 Implementation for DeepRFT to CPU.
 
 
-<!-- **Paper**: https://arxiv.org/abs/2111.11745 -->
+**Paper**: https://arxiv.org/abs/2111.11745
 
 
 ## Network Architecture
@@ -46,16 +45,23 @@ python train.py
 ```
 
 
-<!-- ## Results
+## Results
 Experiment for image deblurring.
 <table>
   <tr>
-    <td> <img src = "./images/psnr_params_flops.png" width="1200"> </td>
+    <td> <img src = "./images/input1.png" width="800"> </td>
+    <td> <img src = "./images/output1.png" width="800"> </td>
   </tr>
   <tr>
-    <td><p align="center"><b>Deblurring on GoPro Datasets.</b></p></td>
+    <td> <img src = "./images/input2.png" width="800"> </td>
+    <td> <img src = "./images/output2.png" width="800"> </td>
+    <!-- <td><p align="center"><b>Deblurring on GoPro Datasets.</b></p></td> -->
   </tr>
-</table> -->
+  <tr>
+    <td> <img src = "./images/input3.png" width="800"> </td>
+    <td> <img src = "./images/output3.png" width="800"> </td>
+  </tr>
+</table>
 
 ## Reference Code:
 - https://github.com/INVOKERer/DeepRFT
