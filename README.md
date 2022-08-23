@@ -1,5 +1,6 @@
 # Deep Residual Fourier Transformation for Single Image Deblurring for CPU
-Xintian Mao, Yiming Liu, Wei Shen, Qingli Li and Yan Wang
+<!-- Xintian Mao, Yiming Liu, Wei Shen, Qingli Li and Yan Wang -->
+Implementation for DeepRFT to CPU.
 
 
 <!-- **Paper**: https://arxiv.org/abs/2111.11745 -->
@@ -18,7 +19,7 @@ Xintian Mao, Yiming Liu, Wei Shen, Qingli Li and Yan Wang
 ## Installation
 <!-- The model is built in PyTorch 1.8.0 and tested on Ubuntu 18.04 environment (Python3.8, CUDA11.1). -->
 
-For installing, follow these intructions, this is an implementation for CPU, so
+For installing, follow these intructions, this is an implementation for CPU.
 ```
 conda create -n pytorch python=3.10
 conda activate pytorch
